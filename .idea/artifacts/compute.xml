@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="compute">
+    <output-path>$PROJECT_DIR$/out/artifacts/compute</output-path>
+    <root id="archive" name="compute.jar">
+      <element id="library" level="project" name="compute" />
+    </root>
+  </artifact>
+</component>

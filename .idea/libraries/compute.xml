@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="compute">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../PI_Utilities/src/compute/compute.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
