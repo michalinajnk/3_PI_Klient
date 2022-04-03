@@ -3,6 +3,7 @@ import compute.Compute;
 import compute.Pi;
 import compute.Task;
 
+import java.net.UnknownHostException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.math.BigDecimal;
@@ -10,7 +11,7 @@ import java.math.BigDecimal;
 
 //Klient
 public class ComputePi {
-    public static void main(String args[]) {
+    public static void main(String args[]) throws UnknownHostException {
         MyData.info();
         try {
             String name = "Compute";
