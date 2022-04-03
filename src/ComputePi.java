@@ -11,6 +11,7 @@ import java.math.BigDecimal;
 //Klient
 public class ComputePi {
     public static void main(String args[]) {
+        MyData.info();
         try {
             String name = "Compute";
             Registry registry = LocateRegistry.getRegistry(args[0]);
