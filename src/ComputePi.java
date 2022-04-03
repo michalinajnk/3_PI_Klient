@@ -1,5 +1,6 @@
 
 import compute.Compute;
+import compute.Pi;
 import compute.Task;
 
 import java.rmi.registry.LocateRegistry;
