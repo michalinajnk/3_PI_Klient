@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 
 //Klient
 public class ComputePi {
-    public static void main(String args[]) throws UnknownHostException {
+    public static void main(String args[]){
 
         try {
             MyData.info();
@@ -19,7 +19,7 @@ public class ComputePi {
             String name = "Compute";
             Registry registry = LocateRegistry.getRegistry(args[0]);
             Compute comp = (Compute) registry.lookup(name);
-            //Compute comp = (Compute) Naming.lookup("//localhost/Compute");
+
 
             Task<BigDecimal> taskPi = new Pi(Integer.parseInt(args[1]));
             BigDecimal pitest = comp.testPI();
