@@ -12,8 +12,10 @@ import java.math.BigDecimal;
 //Klient
 public class ComputePi {
     public static void main(String args[]) throws UnknownHostException {
-        MyData.info();
+
         try {
+            MyData.info();
+            System.setProperty("java.security.policy","srv.policy");
             String name = "Compute";
             Registry registry = LocateRegistry.getRegistry(args[0]);
             Compute comp = (Compute) registry.lookup(name);
